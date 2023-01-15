@@ -11,20 +11,21 @@ form {
 .all {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   width: 33%;
-  height: 500px;
+  height: 590px;
   margin: auto;
+  padding: 1rem;
 }
 .tittle {
   padding: 0.1rem;
-  padding-left: .9px;
+  padding-left: 0.9px;
 }
-a{
+a {
   text-decoration: none;
 }
-.back{
-    padding-left: 1rem;
-    color: blue;
-    font-size: 17px;
+.back {
+  padding-left: 1rem;
+  color: blue;
+  font-size: 17px;
 }
 .all > div {
   padding: 1rem;
@@ -35,7 +36,7 @@ a{
   margin-top: 5px;
 }
 .btn button {
-  padding: .5rem;
+  padding: 0.5rem;
   border-radius: 5px;
   background-color: rgb(25, 25, 90);
   color: white;
@@ -43,17 +44,20 @@ a{
   cursor: pointer;
   border: none;
 }
-.para{
+.para {
   padding-left: 1rem;
 }
-.container{
-  padding: 20px;
-  width: max-content;
+.flex-container {
   display: flex;
-  border: 1px solid black
+  justify-content: center;
 }
-.block1 {
-  padding: 5px;
-  height: 10px;
-  width: 20px;
+.flex-item {
+  border: 2px solid rgb(223, 213, 213);
+  padding: 30px;
+  margin-right: 1.5rem;
+  border-radius: .5rem;
+}
+.create-account{
+  padding-left: 3rem;
+  padding-top: 1rem;
 }
