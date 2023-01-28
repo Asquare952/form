@@ -10,10 +10,10 @@ form {
 }
 .all {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  width: 33%;
-  height: 590px;
+  width: 40%;
+  height: 600px;
   margin: auto;
-  padding: 1rem;
+  padding: 2rem;
 }
 .tittle {
   padding: 0.1rem;
@@ -34,6 +34,7 @@ a {
   padding: 1rem;
   width: 100%;
   margin-top: 5px;
+  padding-right: 1rem;
 }
 .btn button {
   padding: 0.5rem;
@@ -46,18 +47,31 @@ a {
 }
 .para {
   padding-left: 1rem;
+  font-size: 1.3rem;
 }
 .flex-container {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
+  list-style: none;
+  gap: 0.8rem;
 }
 .flex-item {
-  border: 2px solid rgb(223, 213, 213);
-  padding: 30px;
-  margin-right: 1.5rem;
-  border-radius: .5rem;
+  border: 2px solid gray;
+  padding: 1rem 1.5rem;
+  flex-wrap: wrap;
+  cursor: pointer;
 }
-.create-account{
-  padding-left: 3rem;
-  padding-top: 1rem;
+.create-account {
+text-align: center;
+font-size: 1.1rem;
+margin-top: 2rem;
+}
+.fa-linkedin-square {
+  color: skyblue;
+}
+.fa-facebook-official {
+  color: blue;
+}
+.fa-twitter {
+  color: dodgerblue;
 }
