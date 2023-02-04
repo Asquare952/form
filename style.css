@@ -75,7 +75,7 @@ a{
 .fa-twitter {
   color: dodgerblue;
 }
-@media (min-hight: 600px) {
+@media (max-width: 600px) {
   .container{
     margin: 1rem;
   }

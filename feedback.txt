@@ -1,0 +1,4 @@
+put width in the parent and child property
+put enough padding too
+reduce hight too
+add width to the parent and child
