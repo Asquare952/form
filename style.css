@@ -3,68 +3,68 @@
   margin: 0;
   box-sizing: border-box;
 }
-form {
-  margin: 3rem;
-  /* text-align: center; */
-  /* width: 50%; */
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
-.all {
+ .container{
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  width: 40%;
-  height: 600px;
-  margin: auto;
   padding: 2rem;
 }
-.tittle {
-  padding: 0.1rem;
-  padding-left: 0.9px;
+.tittle{
+  margin-bottom: 0.6rem;
 }
-a {
+.inputs{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5rem;
+}
+input{
+  padding: 1rem;
+}
+label{
+  font-size: 1.6rem;
+  margin-bottom: 0.6rem;
+}
+.btn-signup{
+  padding: .5rem;
+  color: white;
+  background-color: blue;
+  font-size: .9rem;
+  border-radius: .3rem;
+  border: none;
+  cursor: pointer;
+}
+a{
   text-decoration: none;
 }
-.back {
-  padding-left: 1rem;
-  color: blue;
-  font-size: 17px;
+.back{
+  margin-bottom: 0.6rem;
 }
-.all > div {
-  padding: 1rem;
-}
-.all > div > input {
-  padding: 1rem;
-  width: 100%;
-  margin-top: 5px;
-  padding-right: 1rem;
-}
-.btn button {
-  padding: 0.5rem;
-  border-radius: 5px;
-  background-color: rgb(25, 25, 90);
-  color: white;
-  font-size: 15px;
-  cursor: pointer;
-  border: none;
-}
-.para {
-  padding-left: 1rem;
+.or{
   font-size: 1.3rem;
+  margin: 0.7rem 0rem;
 }
-.flex-container {
+.btn-wrapper{
+  margin-bottom: 0.6rem;
+}
+.social-icon{
+  margin-bottom: 1.5rem;
+}
+.list{
   display: flex;
-  /* justify-content: center; */
   list-style: none;
   gap: 0.8rem;
 }
-.flex-item {
-  border: 2px solid gray;
+.list-item{
+  border: 1px solid gray;
   padding: 1rem 1.5rem;
-  flex-wrap: wrap;
   cursor: pointer;
 }
-.create-account {
-text-align: center;
-font-size: 1.1rem;
-margin-top: 2rem;
+.create-account{
+  text-align: center;
 }
 .fa-linkedin-square {
   color: skyblue;
@@ -74,4 +74,14 @@ margin-top: 2rem;
 }
 .fa-twitter {
   color: dodgerblue;
+}
+@media (min-hight: 600px) {
+  .container{
+    margin: 1rem;
+  }
+  .list{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
 }
